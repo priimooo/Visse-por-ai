@@ -97,3 +97,50 @@ body {
     background-color: #ccc;
     border-radius: 10px;
 }
+
+
+.juliete{
+    width: 300px;
+    height: 400px;
+    border-radius: 1000px;
+}
+.estilo {
+    display: flex;        
+    gap: 30px;            
+    align-items: center;
+    padding: 40px 20px;
+    background-color: #FEF1E1;
+}
+
+.estilo > img {
+    width: 300px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.textoestilo {
+    max-width: 600px;     
+}
+
+.textoestilo h2 {
+    font-size: 28px;
+    color: #4A1E0A;
+}
+
+.textoestilo p {
+    font-size: 16px;
+    color: #4A1E0A;
+    line-height: 1.6;
+}
+
+.juliete {
+    width: 200px;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 20px;
+} 
+.ciclone{
+    width: 220px;
+    height: 400px;
+    border-radius: 100px;
+}
