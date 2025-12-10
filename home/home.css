@@ -1,6 +1,7 @@
 body {
   margin: 0;
   padding: 0;
+  font-family: "ADLaM", sans-serif;
 }
 
 @font-face {
@@ -34,9 +35,15 @@ nav {
   height: 400px;
 }
 
-.sessao1 h1 {
+.texto-inicio h1{
   margin: 0;
-  margin-top: 0px;
+  
+}
+
+.texto-inicio {
+  margin: 0;
+  padding: 0px 0 0 0px;
+  color: rgb(0, 0, 0);
 }
 
 .logoInicio {
@@ -93,9 +100,10 @@ nav {
   color: aliceblue;
   border: none;
   border-radius: 10px;
-  padding: 100px;
+  padding: 50px;
   margin: 100px;
   align-items: center;
+  font-size: 25px;
 }
 
 .personagens {
@@ -129,16 +137,17 @@ nav {
 .guias {
   display: flex;
   background-color: rgba(206, 175, 184, 0.26);
-  height: 800px;
+  margin: 0;
 }
 
 .guiasimg {
   grid-template-columns: repeat(2, 1fr);
-  padding: 30px;
+  padding: 20px;
   margin: 0;
   display: grid;
   gap: 10px;
-  height: 100%;
+  height: auto;
+  margin: 0;
   /* margin-top: 500px; */
 }
 
@@ -148,6 +157,8 @@ nav {
   font-family: "ADLaM", sans-serif;
   margin-top: 250px;
 }
+
+
 
 .guiastxt button{
   border: none;
@@ -164,4 +175,21 @@ nav {
   width: 200px;
   height: 200px;
   border-radius: 50%;
+}
+
+.rodape{
+  background-color: #ae3616;
+  text-align: center;
+  padding: 20px;
+  /* margin-top: 50px; */
+  color: white;
+  font-family: "ADLaM", sans-serif;
+}
+
+.rodape img{
+  
+  margin: 0;
+  width: 150px;
+  margin-top: 40px;
+
 }
