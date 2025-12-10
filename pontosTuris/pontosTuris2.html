@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html class="scroll-smooth" lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
+    <title>Pontos Turísticos de Recife - Refinado</title>
+    <link rel="stylesheet" href="pontosTuris2.css">
+    <script src="https://cdn.tailwindcss.com?plugins=forms,typography"></script>
+    <link href="https://fonts.googleapis.com" rel="preconnect" />
+    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;family=Playfair+Display:wght@700&amp;display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <script>
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            colors: {
+              primary: "#EB6424", // A vibrant blue inspired by Recife's rivers and sea
+              secondary: "#FDB813", // A warm yellow, like the sun
+              "background-light": "#F8FAFC",
+              "background-dark": "#111827",
+              "text-light": "#1F2937",
+              "text-dark": "#F3F4F6",
+            },
+            fontFamily: {
+              display: ["Playfair Display", "serif"],
+              body: ["Poppins", "sans-serif"],
+            },
+            borderRadius: {
+              DEFAULT: "0.5rem",
+              lg: "0.75rem",
+            },
+            height: {
+              "screen-80": "80vh",
+            },
+          },
+        },
+      };
+    </script>
+  </head>
+  <body class="bg-orange-100 font-body text-text-light">
+    <nav>
+      <div class="buttonNave">
+        <ul>
+          <li><a href="">Início</a></li>
+          <li><a href="">Pontos Turísticos</a></li>
+          <li><a href="">Deslocamentos</a></li>
+          <li><a href="">Dicas Turísticas</a></li>
+          <li><a href="">Cultura</a></li>
+          <li><a href="">Fique por dentro</a></li>
+        </ul>
+      </div>
+    </nav>
+    <main class="container mx-auto px-4 py-16 sm:py-24">
+      <div class="text-center mb-12">
+        <h2
+          class="text-4xl md:text-5xl font-display font-bold text-gray-800 dark:text-white"
+        >
+          Principais Atrações
+        </h2>
+        <p
+          class="mt-4 text-lg text-gray-600 dark:text-gray-300 max-w-3xl mx-auto"
+        >
+          Uma seleção dos locais imperdíveis que contam a história e a alma da
+          nossa cidade.
+        </p>
+      </div>
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+        <div
+          class="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg flex flex-col group"
+        >
+          <div class="overflow-hidden">
+            <img
+              alt="Marco Zero em Recife"
+              class="w-full h-56 object-cover transform group-hover:scale-105 transition-transform duration-500 ease-in-out"
+              src="../images/marcoZero.jpg"
+            />
+          </div>
+          <div class="p-6 flex flex-col flex-grow">
+            <h3
+              class="text-2xl font-display font-bold text-gray-900 dark:text-white"
+            >
+              Marco Zero
+            </h3>
+            <p class="mt-2 text-gray-600 dark:text-gray-300 flex-grow">
+              O Marco Zero, no Recife Antigo, marca o início das estradas de Pernambuco e é um dos símbolos da cidade. Cercado por prédios históricos, abriga o painel de Brennand e recebe eventos como o Carnaval, com vista para o porto e o Parque das Esculturas
+            </p>
+            <button
+              class="mt-6 bg-primary text-white font-semibold py-2 px-5 rounded-md shadow-md hover:bg-orange-700 dark:hover:bg-orange-600 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 flex items-center gap-2 self-start"
+            >
+              Ver Mais
+              <span
+                class="material-icons text-lg transition-transform duration-300 group-hover:translate-x-1"
+                >arrow_forward</span
+              >
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg flex flex-col group"
+        >
+          <div class="overflow-hidden">
+            <img
+              alt="Marco Zero em Recife"
+              class="w-full h-56 object-cover transform group-hover:scale-105 transition-transform duration-500 ease-in-out"
+              src="../images/ruaBomJesus.jpg"
+            />
+          </div>
+          <div class="p-6 flex flex-col flex-grow">
+            <h3
+              class="text-2xl font-display font-bold text-gray-900 dark:text-white"
+            >
+              Rua do Bom Jesus
+            </h3>
+            <p class="mt-2 text-gray-600 dark:text-gray-300 flex-grow">
+              A Rua Bom Jesus, no Recife Antigo, é uma das mais antigas e
+              encantadoras da cidade. Conhecida por suas fachadas coloridas e
+              pelo clima histórico, abriga a Sinagoga Kahal Zur Israel, a
+              primeira das Américas. Aos fins de semana, a rua ganha vida com
+              feirinhas, arte, música e gastronomia. É um ponto turístico
+              vibrante, que mistura cultura, memória e diversidade em um dos
+              cenários mais fotogênicos do Recife.
+            </p>
+            <button
+              class="mt-6 bg-primary text-white font-semibold py-2 px-5 rounded-md shadow-md hover:bg-orange-700 dark:hover:bg-orange-600 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 flex items-center gap-2 self-start"
+            >
+              Ver Mais
+              <span
+                class="material-icons text-lg transition-transform duration-300 group-hover:translate-x-1"
+                >arrow_forward</span
+              >
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg flex flex-col group"
+        >
+          <div class="overflow-hidden">
+            <img
+              alt="Marco Zero em Recife"
+              class="w-full h-56 object-cover transform group-hover:scale-105 transition-transform duration-500 ease-in-out"
+              src="../images/pacoDoFrevo.jpg"
+            />
+          </div>
+          <div class="p-6 flex flex-col flex-grow">
+            <h3
+              class="text-2xl font-display font-bold text-gray-900 dark:text-white"
+            >
+              Paço do Frevo
+            </h3>
+            <p class="mt-2 text-gray-600 dark:text-gray-300 flex-grow">
+              O Paço do Frevo, no Recife Antigo, é um centro cultural dedicado à
+              preservação e celebração do frevo, patrimônio imaterial
+              brasileiro. Instalado em um prédio histórico, oferece exposições
+              interativas, aulas de dança e pesquisa sobre a música e a cultura
+              carnavalesca. Colorido e vibrante, o espaço mantém viva a
+              tradição, conectando visitantes à energia e à história do ritmo
+              mais marcante de Pernambuco.
+            </p>
+            <button
+              class="mt-6 bg-primary text-white font-semibold py-2 px-5 rounded-md shadow-md hover:bg-orange-700 dark:hover:bg-orange-600 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 flex items-center gap-2 self-start"
+            >
+              Ver Mais
+              <span
+                class="material-icons text-lg transition-transform duration-300 group-hover:translate-x-1"
+                >arrow_forward</span
+              >
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg flex flex-col group"
+        >
+          <div class="overflow-hidden">
+            <img
+              alt="Marco Zero em Recife"
+              class="w-full h-56 object-cover transform group-hover:scale-105 transition-transform duration-500 ease-in-out"
+              src="../images/caisDoSertao.jpg"
+            />
+          </div>
+          <div class="p-6 flex flex-col flex-grow">
+            <h3
+              class="text-2xl font-display font-bold text-gray-900 dark:text-white"
+            >
+              Cais do Sertão
+            </h3>
+            <p class="mt-2 text-gray-600 dark:text-gray-300 flex-grow">
+              O Cais do Sertão, no Recife Antigo, é um museu moderno dedicado à
+              cultura sertaneja e à obra de Luiz Gonzaga. Com tecnologia
+              interativa, música, luz e poesia, o espaço recria cenários do
+              sertão e apresenta sua riqueza simbólica. Misturando tradição e
+              inovação, oferece experiências sensoriais que aproximam o
+              visitante da vida, da arte e do legado do povo nordestino,
+              tornando-se um dos museus mais marcantes do Recife.
+            </p>
+            <button
+              class="mt-6 bg-primary text-white font-semibold py-2 px-5 rounded-md shadow-md hover:bg-orange-700 dark:hover:bg-orange-600 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 flex items-center gap-2 self-start"
+            >
+              Ver Mais
+              <span
+                class="material-icons text-lg transition-transform duration-300 group-hover:translate-x-1"
+                >arrow_forward</span
+              >
+            </button>
+          </div>
+        </div>
+
+        <div
+          class="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg flex flex-col group"
+        >
+          <div class="overflow-hidden">
+            <img
+              alt="Rua do Bom Jesus em Recife"
+              class="w-full h-56 object-cover transform group-hover:scale-105 transition-transform duration-500 ease-in-out"
+              src="../images/praiaDeBoaViagem.jpg"
+            />
+          </div>
+          <div class="p-6 flex flex-col flex-grow">
+            <h3
+              class="text-2xl font-display font-bold text-gray-900 dark:text-white"
+            >
+              Praia de Boa Viagem
+            </h3>
+            <p class="mt-2 text-gray-600 dark:text-gray-300 flex-grow">
+              A Praia de Boa Viagem é a mais famosa do Recife, co
+              class="personagens"nhecida por seu mar verde-azulado, piscinas
+              naturais formadas por arrecifes e longa faixa de areia clara.
+              Muito frequentada por moradores e turistas, oferece calçadão
+              movimentado, quiosques, ciclovia e áreas para esportes. É um
+              cartão-postal da cidade, com visual vibrante, clima tropical e
+              ótima estrutura urbana, ideal para banho, lazer e contemplação.
+            </p>
+            <button
+              class="mt-6 bg-primary text-white font-semibold py-2 px-5 rounded-md shadow-md hover:bg-orange-700 dark:hover:bg-orange-600 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 flex items-center gap-2 self-start"
+            >
+              Ver Mais
+              <span
+                class="material-icons text-lg transition-transform duration-300 group-hover:translate-x-1"
+                >arrow_forward</span
+              >
+            </button>
+          </div>
+        </div>
+        <div
+          class="bg-white dark:bg-gray-800 rounded-lg overflow-hidden shadow-lg flex flex-col group"
+        >
+          <div class="overflow-hidden">
+            <img
+              alt="Embaixada dos Bonecos Gigantes em Recife"
+              class="w-full h-56 object-cover transform group-hover:scale-105 transition-transform duration-500 ease-in-out"
+              src="../images/institutoRicardoBrennand.jpg"
+            />
+          </div>
+          <div class="p-6 flex flex-col flex-grow">
+            <h3
+              class="text-2xl font-display font-bold text-gray-900 dark:text-white"
+            >
+              Institudo Ricardo Brennand
+            </h3>
+            <p class="mt-2 text-gray-600 dark:text-gray-300 flex-grow">
+              O Instituto Ricardo Brennand, na Várzea, é um dos principais
+              espaços culturais do Recife. Instalado em um complexo de
+              arquitetura inspirada em castelos europeus, reúne vasta coleção de
+              armas, armaduras, arte e objetos históricos. Seu acervo inclui
+              pinturas, esculturas e a famosa tapeçaria de Frans Post. Rodeado
+              por belos jardins, o instituto oferece uma imersão única na
+              história e na cultura, sendo um dos museus mais visitados da
+              cidade.
+            </p>
+            <button
+              class="mt-6 bg-primary text-white font-semibold py-2 px-5 rounded-md shadow-md hover:bg-orange-700 dark:hover:bg-orange-600 transition-colors duration-300 focus:outline-none focus:ring-2 focus:ring-primary focus:ring-opacity-50 flex items-center gap-2 self-start"
+            >
+              Ver Mais
+              <span
+                class="material-icons text-lg transition-transform duration-300 group-hover:translate-x-1"
+                >arrow_forward</span
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <br />
+      <br />
+
+      <hr class="border-t-2 border-gray-900" />
+
+      <br />
+      <br />
+
+      <section class="p-4 sm:p-6 lg:p-10 space-y-4">
+<div class="flex flex-wrap justify-between gap-3">
+<h1 class="text-gray-900 dark:text-white text-4xl font-black leading-tight tracking-[-0.033em] min-w-72">Liderança</h1>
+</div>
+<p class="text-gray-800 dark:text-gray-300 text-base font-normal leading-relaxed"> Explore a vida e o legado de indivíduos que, por meio de sua visão, coragem e influência, moldaram nações, lideraram movimentos e inspiraram gerações. A liderança se manifesta de várias formas, mas seu impacto na história é inegável. </p>
+</section>
+
+      <div class="flex flex-col gap-6 p-4 sm:p-6 lg:p-10">
+      
+      <article
+        class="flex flex-col sm:flex-row items-center gap-6 p-4 rounded-xl bg-white dark:bg-gray-800/50 shadow-sm hover:shadow-lg transition-shadow duration-300 overflow-hidden"
+      >
+        <img
+          alt="Portrait of Nelson Mandela"
+          class="w-full sm:w-32 h-48 sm:h-32 object-cover rounded-lg"
+          src="../images/mauricioDeNassau.png"
+        />
+        <div class="flex-1 text-center sm:text-left">
+          <h3 class="text-xl font-bold text-gray-900 dark:text-white">
+            Mauricio de Nassau
+          </h3>
+          <p class="text-sm text-gray-500 dark:text-gray-400 mb-2">
+            1604 - 1679
+          </p>
+          <p class="text-base text-gray-600 dark:text-gray-300 italic">
+            "A educação é a arma mais poderosa que você pode usar para mudar o
+            mundo."
+          </p>
+        </div>
+        <button
+          class="flex-shrink-0 mt-4 sm:mt-0 flex w-full sm:w-auto min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-6 bg-primary/10 dark:bg-primary/20 text-primary dark:text-primary text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/20 dark:hover:bg-primary/30 transition-colors"
+        >
+          <span class="truncate">Ver Mais</span>
+        </button>
+      </article>
+
+      <article
+        class="flex flex-col sm:flex-row items-center gap-6 p-4 rounded-xl bg-white dark:bg-gray-800/50 shadow-sm hover:shadow-lg transition-shadow duration-300 overflow-hidden"
+      >
+        <img
+          alt="Portrait of Nelson Mandela"
+          class="w-full sm:w-32 h-48 sm:h-32 object-cover rounded-lg"
+          src="../images/freiCaneca.jpg"
+        />
+        <div class="flex-1 text-center sm:text-left">
+          <h3 class="text-xl font-bold text-gray-900 dark:text-white">
+            Frei Caneca
+          </h3>
+          <p class="text-sm text-gray-500 dark:text-gray-400 mb-2">
+            1779 - 1825
+          </p>
+          <p class="text-base text-gray-600 dark:text-gray-300 italic">
+            "A educação é a arma mais poderosa que você pode usar para mudar o
+            mundo."
+          </p>
+        </div>
+        <button
+          class="flex-shrink-0 mt-4 sm:mt-0 flex w-full sm:w-auto min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-6 bg-primary/10 dark:bg-primary/20 text-primary dark:text-primary text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/20 dark:hover:bg-primary/30 transition-colors"
+        >
+          <span class="truncate">Ver Mais</span>
+        </button>
+      </article>
+
+      <article
+        class="flex flex-col sm:flex-row items-center gap-6 p-4 rounded-xl bg-white dark:bg-gray-800/50 shadow-sm hover:shadow-lg transition-shadow duration-300 overflow-hidden"
+      >
+        <img
+          alt="Portrait of Nelson Mandela"
+          class="w-full sm:w-32 h-48 sm:h-32 object-cover rounded-lg"
+          src="../images/franciscoBrennand.jpg"
+        />
+        <div class="flex-1 text-center sm:text-left">
+          <h3 class="text-xl font-bold text-gray-900 dark:text-white">
+            Francisco Brennand
+          </h3>
+          <p class="text-sm text-gray-500 dark:text-gray-400 mb-2">
+            1927 - 2019
+          </p>
+          <p class="text-base text-gray-600 dark:text-gray-300 italic">
+            "A educação é a arma mais poderosa que você pode usar para mudar o
+            mundo."
+          </p>
+        </div>
+        <button
+          class="flex-shrink-0 mt-4 sm:mt-0 flex w-full sm:w-auto min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-6 bg-primary/10 dark:bg-primary/20 text-primary dark:text-primary text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/20 dark:hover:bg-primary/30 transition-colors"
+        >
+          <span class="truncate">Ver Mais</span>
+        </button>
+      </article>
+
+      <article
+        class="flex flex-col sm:flex-row items-center gap-6 p-4 rounded-xl bg-white dark:bg-gray-800/50 shadow-sm hover:shadow-lg transition-shadow duration-300 overflow-hidden"
+      >
+        <img
+          alt="Portrait of Nelson Mandela"
+          class="w-full sm:w-32 h-48 sm:h-32 object-cover rounded-lg"
+          src="../images/arianoSuassuna.webp"
+        />
+        <div class="flex-1 text-center sm:text-left">
+          <h3 class="text-xl font-bold text-gray-900 dark:text-white">
+            Ariano Suassuna
+          </h3>
+          <p class="text-sm text-gray-500 dark:text-gray-400 mb-2">
+            1927 - 2014
+          </p>
+          <p class="text-base text-gray-600 dark:text-gray-300 italic">
+            "A educação é a arma mais poderosa que você pode usar para mudar o
+            mundo."
+          </p>
+        </div>
+        <button
+          class="flex-shrink-0 mt-4 sm:mt-0 flex w-full sm:w-auto min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-6 bg-primary/10 dark:bg-primary/20 text-primary dark:text-primary text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/20 dark:hover:bg-primary/30 transition-colors"
+        >
+          <span class="truncate">Ver Mais</span>
+        </button>
+      </article>
+
+            <article
+        class="flex flex-col sm:flex-row items-center gap-6 p-4 rounded-xl bg-white dark:bg-gray-800/50 shadow-sm hover:shadow-lg transition-shadow duration-300 overflow-hidden"
+      >
+        <img
+          alt="Portrait of Nelson Mandela"
+          class="w-full sm:w-32 h-48 sm:h-32 object-cover rounded-lg"
+          src="../images/pauloFreire.webp"
+        />
+        <div class="flex-1 text-center sm:text-left">
+          <h3 class="text-xl font-bold text-gray-900 dark:text-white">
+            Paulo Freire
+          </h3>
+          <p class="text-sm text-gray-500 dark:text-gray-400 mb-2">
+            1921 - 1997
+          </p>
+          <p class="text-base text-gray-600 dark:text-gray-300 italic">
+            "A educação é a arma mais poderosa que você pode usar para mudar o
+            mundo."
+          </p>
+        </div>
+        <button
+          class="flex-shrink-0 mt-4 sm:mt-0 flex w-full sm:w-auto min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-6 bg-primary/10 dark:bg-primary/20 text-primary dark:text-primary text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/20 dark:hover:bg-primary/30 transition-colors"
+        >
+          <span class="truncate">Ver Mais</span>
+        </button>
+      </article>
+
+            <article
+        class="flex flex-col sm:flex-row items-center gap-6 p-4 rounded-xl bg-white dark:bg-gray-800/50 shadow-sm hover:shadow-lg transition-shadow duration-300 overflow-hidden"
+      >
+        <img
+          alt="Portrait of Nelson Mandela"
+          class="w-full sm:w-32 h-48 sm:h-32 object-cover rounded-lg"
+          src="../images/chicoScience.jpg"
+        />
+        <div class="flex-1 text-center sm:text-left">
+          <h3 class="text-xl font-bold text-gray-900 dark:text-white">
+            Chico Science
+          </h3>
+          <p class="text-sm text-gray-500 dark:text-gray-400 mb-2">
+            1966 - 1997
+          </p>
+          <p class="text-base text-gray-600 dark:text-gray-300 italic">
+            "A educação é a arma mais poderosa que você pode usar para mudar o
+            mundo."
+          </p>
+        </div>
+        <button
+          class="flex-shrink-0 mt-4 sm:mt-0 flex w-full sm:w-auto min-w-[84px] max-w-[480px] cursor-pointer items-center justify-center overflow-hidden rounded-lg h-10 px-6 bg-primary/10 dark:bg-primary/20 text-primary dark:text-primary text-sm font-bold leading-normal tracking-[0.015em] hover:bg-primary/20 dark:hover:bg-primary/30 transition-colors"
+        >
+          <span class="truncate">Ver Mais</span>
+        </button>
+      </article>
+    </main>
+  </body>
+</html>
