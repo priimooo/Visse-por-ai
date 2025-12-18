@@ -1,0 +1,102 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "ADLaM", sans-serif;
+}
+
+@media screen and (max-width: 1200px) {
+  .sessaoInicial {
+    flex-direction: column;
+    padding: 50px 20px;
+  }
+
+  .logoInicio {
+    max-width: 80%;
+    position: relative;
+    right: 0;
+    margin: 20px auto;
+  }
+
+  .sobre-nos {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+  }
+
+  .sobre-img img {
+    width: 100%;
+    height: auto;
+  }
+
+  .botoeslocais h3 {
+    font-size: 20px;
+    padding: 30px;
+    margin: 20px 0;
+  }
+
+  .personagens {
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+  }
+
+  .personagens img {
+    width: 100%;
+    height: auto;
+    margin: 20px 0;
+  }
+
+  .guias {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .guiasimg {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+
+  .guias-container img {
+    width: 100%;
+    height: auto;
+  }
+
+  .rodape {
+    padding: 10px;
+  }
+
+  .rodape img {
+    width: 100px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .buttonNave ul {
+    flex-direction: column;
+    padding: 10px;
+  }
+
+  .buttonNave li {
+    margin: 10px 0;
+  }
+
+  .texto-inicio h1 {
+    font-size: 36px;
+  }
+
+  .texto-inicio p,
+  .sobre-texto p,
+  .personagens p,
+  .guias p {
+    font-size: 18px;
+  }
+
+  .texto-inicio button {
+    margin-left: 0;
+    margin-top: 20px;
+  }
+
+  .botoeslocais h3 {
+    font-size: 18px;
+    padding: 20px;
+  }
+}
